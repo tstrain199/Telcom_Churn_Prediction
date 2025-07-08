@@ -30,3 +30,6 @@ The MLP Classifier may work with some tabular data, but we saw poor results in p
 
 ## Tuned XGBoost model
 By tuning the XGBoost model we were able to improve on the target metric. Using a learning rate of .2, a max depth of 10 and 100 estimators this model had a recall of .74
+
+## Evaluation
+To evaluate the results we use a 2x2 confusion matrix, precision and recall scores. Our mandate here was to identify actual churners we focused on the recall score. The model with the best recall score was the Tuned XGBoost model with a recall of 74%.
