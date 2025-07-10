@@ -37,6 +37,6 @@ By tuning the XGBoost model we were able to improve on the target metric. Using 
 To evaluate the results we use a 2x2 confusion matrix, precision and recall scores. Our mandate here was to identify actual churners we focused on the recall score. The model with the best recall score was the Tuned XGBoost model with a recall of 74%.
 
 ## Repository Structure
-README.md ---------> This file
-notebook.ipynb ----> Project Jupyter Notebook
-images ------------> Images used
+* README.md ---------> This file
+* notebook.ipynb ----> Project Jupyter Notebook
+* images ------------> Images used
