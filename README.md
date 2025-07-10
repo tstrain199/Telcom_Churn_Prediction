@@ -1,5 +1,7 @@
 # Telcom Churn Prediction
 
+![alt text](images/AdobeStock_294948823.jpeg)
+
 ## Overview
 Customer churn in the telcom industry is a big problem for service providers. As it is expensive to accuire new customers, keeping existing customers is a priority. This project aims to predict future churners so the company can take steps to retain them. Using company provided data we tried varuous Machine Learning models to 
 make predictions, and chose the results from the best one. Our results show a recall score of .76
@@ -10,10 +12,10 @@ Since there is a cost associated with losing a customer and getting a new one th
 
 ## Data Understanding
 The data set we used was provided by Kaggle. *https://www.kaggle.com/becksddf/churn-in-telecoms-dataset* 
-The dataset contains information about customers of a telecom company, including their demographics, 
-account information, and whether they have churned (i.e., stopped using the service). 
+The dataset contains information about customers of a telecom company, including their call history, 
+account information, and whether they have churned. 
 
-The data set have 3333 records with 21 attributes. Our feature engineering will add 2 additional attributes.
+The data set has 3333 records with 21 attributes. Our feature engineering will add 2 additional attributes.
 There are no missing values in the data set. However there is a data imbalance with poisitive cases (customers 
 that churned) being only 14% of the total records.
 
