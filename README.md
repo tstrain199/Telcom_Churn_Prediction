@@ -40,3 +40,4 @@ To evaluate the results we use a 2x2 confusion matrix, precision and recall scor
 * README.md ---------> This file
 * notebook.ipynb ----> Project Jupyter Notebook
 * images ------------> Images used
+* presentation.pdf --> Slide Presentation
