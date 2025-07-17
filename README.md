@@ -36,6 +36,13 @@ By tuning the XGBoost model we were able to improve on the target metric. Using 
 ## Evaluation
 To evaluate the results we use a 2x2 confusion matrix, precision and recall scores. Our mandate here was to identify actual churners we focused on the recall score. The model with the best recall score was the Tuned XGBoost model with a recall of 74%.
 
+## Conslusion
+Accquiring new customers is very expensive for a telcom services company. These companies have found that it is more cost effective to keep existing customers even if they have to offer incentives to those customers. A telcom company etasked us with predicting which of their customers might churn. Using an XGBoost model we were able to predict 74% of those customers which will churn.
+
+The data provided by the telcom company was mostly user call data. We found this to be a limitation. Our reccomendation is to provide more demographic and other data from which we can use to do feature engineering and make better predictions.
+
+Overall we were able to help the telcom company identify the majority of the churners, helpimg them retain those users and save money. In the future, possibly with more data, we can improve on these predictions and help save more money.
+
 ## Repository Structure
 * README.md ---------> This file
 * notebook.ipynb ----> Project Jupyter Notebook
